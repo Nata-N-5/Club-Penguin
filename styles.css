@@ -1,0 +1,75 @@
+body { /* Cambia los colores si lo necesitas */
+  background: linear-gradient(0deg, #1065d5, #6eaafa);
+}
+  /* Cambiar color de texto y fondo solo del enlace al pasar el cursor */
+  
+  
+  .nav-link:hover {
+    color: rgb(248, 204, 10) !important; /* Cambia el texto a amarillo */
+  }
+  .nav-item {
+      margin-right: 15px; /* Espacio derecho entre elementos */
+  }
+  .carousel-inner img {
+    height: 600px; /* Altura uniforme */
+    object-fit: cover; /* Recorta y ajusta proporcionalmente */
+  }
+  .shadow-image {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3); /* Ajusta valores para cambiar la sombra */
+
+  }
+
+  
+  /* Efecto para las imágenes dentro de las tarjetas */
+  .card:hover img {
+    filter: brightness(1.2); /* Incrementa el brillo */
+    transition: filter 0.3s ease; /* Animación suave */
+    transform: scale(1.1); /* Aumenta el tamaño al 110% */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Sombra brillante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+  }
+
+  .position-relative:hover img {
+    filter: brightness(1.2); /* Incrementa el brillo */
+    transition: filter 0.3s ease; /* Animación suave */
+    transform: scale(1.1); /* Aumenta el tamaño al 110% */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Sombra brillante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+  }
+  
+  .img-card {
+    width: 100%; /* Para que se ajuste al ancho del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    border-radius: 10px; /* Mantén el redondeo si lo necesitas */
+  }
+
+  .img-card2 {
+    width: 100%; /* Para que se ajuste al ancho del contenedor */
+    height: 215px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    border-radius: 10px; /* Mantén el redondeo si lo necesitas */
+  }
+  
+  .custom-small-text {
+    font-size: 0.75rem; /* Tamaño más pequeño que fs-6 */
+  }
+  .text-border {
+    text-shadow: 
+      -1px -1px 0 #000, /* Sombra superior izquierda */
+      1px -1px 0 #000,  /* Sombra superior derecha */
+      -1px 1px 0 #000,  /* Sombra inferior izquierda */
+      1px 1px 0 #000;   /* Sombra inferior derecha */
+  }
+  .img-container {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .link-click:hover {
+    color: rgb(248, 204, 10) !important;
+  }
+  
+  
